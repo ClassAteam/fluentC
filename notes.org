@@ -1,0 +1,9 @@
+* Inbox
+** [2023-01-12 Чт 14:19] I think it means that everyone who includes this header file are holding access to that "global" structure
+/* file-global array holding all registry keys */
+static struct Key* key_list[MAX_KEYS];
+
+[[file:~/repo/fluent-c/returning-errors/registry.c::/* file-global array holding all registry keys */
+static struct Key* key_list\[MAX_KEYS\];]]
+
+also it makes the key available for being read(by other functions that are not part of this code example)

@@ -4,4 +4,4 @@ SRC=$(wildcard *.c)
 default: returnerrors
 
 returnerrors: $(SRC) $(HEADERS)
-	gcc -o returnerrors $(SRC)
+	gcc -o returnerrors.out $(SRC)
