@@ -160,7 +160,7 @@ void encryptDirectoryContent()
 
 int main()
 {
-  chdir(".\\text");
+  chdir("/home/ivan/repo/fluent-c/memory-management/text");
   encryptDirectoryContent();
   printf("\nSuccessfully encrypted directory content");
 }
