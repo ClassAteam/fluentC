@@ -4,4 +4,4 @@ SRC=$(wildcard *.c)
 default: driver
 
 driver: $(SRC) $(HEADERS)
-	gcc -o driver $(SRC)
+	gcc -o driver.out $(SRC)

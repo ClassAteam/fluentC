@@ -1,4 +1,8 @@
 * Inbox
+** [2023-01-21 Сб 15:30] just copying the pointer of the structure that is already been allocated in nested function
+  return s;
+
+[[file:~/repo/fluentC/lifetime-ownership/driver.c::return s;]]
 ** [2023-01-12 Чт 14:19] I think it means that everyone who includes this header file are holding access to that "global" structure
 /* file-global array holding all registry keys */
 static struct Key* key_list[MAX_KEYS];

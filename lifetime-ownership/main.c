@@ -12,5 +12,5 @@ int main()
     pointer++;
   }
   closeSender(s);
-  printf("Successfully used the driver functionality");
+  printf("Successfully used the driver functionality\n");
 }
