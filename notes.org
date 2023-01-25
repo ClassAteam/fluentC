@@ -1,4 +1,7 @@
 * Inbox
+** [2023-01-24 Вт 15:00] this directory has his own makefile that is how they are included in the main makefile
+-I./hashlib
+[[file:~/repo/fluentC/directory-structure/main/makefile::-I./hashlib]]
 ** [2023-01-21 Сб 15:30] just copying the pointer of the structure that is already been allocated in nested function
   return s;
 
